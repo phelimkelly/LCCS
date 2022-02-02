@@ -1,0 +1,55 @@
+#Lists
+#P.Kelly 31/1/2022
+"""
+myList = [] #creates a blank list
+
+myList = ["John","David","Sally","Hannah"]
+
+print(myList)
+
+#Converting a string into a list
+myString = "I live in Balbriggan"
+print(myString)
+myList = list(myString)
+print(myList)
+
+
+#Referring to individual elements in a list
+#Remember how we did this with strings.....
+myString = "I have brown hair"
+print(myString[3])
+
+myNamesList = ["John","David","Sally","Hannah"]
+print(myNamesList[2])#printing the 3rd element in the list
+
+print(myNamesList[0:2])
+
+myNamesList = ["John","David","Sally","Hannah"]
+checkName = input("Please enter a name to check: ")
+
+if checkName in myNamesList:
+    print("They are in the school!")
+else:
+    print("No such student")
+    
+#Adding elements to a list, using append() function
+    
+myNamesList.append("Meghan")
+print(myNamesList)
+myNamesList.append(input("Enter a new name for the list: "))
+print(myNamesList)
+
+#adding to a specific location using the insert() function
+myNamesList.insert(2,"Stephen")
+print(myNamesList)
+
+#Finding the location of an element in a list, using the index() function
+myNamesList = ["John","David","Sally","Hannah"]
+loc = myNamesList.index("Sally")
+print(loc)
+"""
+#lets try and count how many of a certain number we have in a List
+numList = [23,45,72,23,56,74,23,56,77,12,23]
+lengthOfList = len(numList)
+print(lengthOfList)
+while       :
