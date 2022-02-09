@@ -22,3 +22,30 @@
 
 
 #Task 5. Write a Python program which iterates the integers from 1 to 50. For multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
+
+
+#Task 6. Write a Python program that accepts a string and calculate the number of digits and letters. Go to the editor
+#Sample Data : Python 3.2
+#Expected Output :
+#Letters 6
+#Digits 2
+
+
+#Task 7.Write a Python program to check the validity of password input by users. Go to the editor
+#Validation :
+
+#At least 1 letter between [a-z] and 1 letter between [A-Z].
+#At least 1 number between [0-9].
+#At least 1 character from [$#@].
+#Minimum length 6 characters.
+#Maximum length 16 characters.
+
+
+#Task 8 Write a Python program to calculate a dog's age in dog's years. Go to the editor
+#Note: For the first two years, a dog year is equal to 10.5 human years. After that, each dog year equals 4 human years.
+#Expected Output:
+#Input a dog's age in human years: 15                                    
+#The dog's age in dog's years is 73
+
+
+
